@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="hero__">
+        <div class="container__">
+            <nav class="nav__">
+                <a href="index.html" class="nav_item__">Inicio</a>
+                <a href="historias-inspiradoras.html" class="nav_item__">Historias Inspiradoras</a>
+                <a href="#contacto" class="nav_item__">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contacto" class="contact-section">
+        <h2 class="contact-title">Contacto</h2>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+            <label for="sex">Sexo:</label>
+            <select id="sex" name="sex" required>
+                <option value="" disabled selected>Selecciona tu sexo</option>
+                <option value="female">Femenino</option>
+                <option value="male">Masculino</option>
+                <option value="other">Otro</option>
+                <option value="prefer-not-to-say">Prefiero no decirlo</option>
+            </select>
+
+            <label for="suggest-woman">Aportar mujeres empoderadas:</label>
+            <input type="text" id="suggest-woman" name="suggest-woman" placeholder="Nombre de la mujer empoderada"
+                required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit" class="contact-btn">Enviar Mensaje</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
